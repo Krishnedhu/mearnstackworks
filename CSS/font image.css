@@ -1,0 +1,13 @@
+div{
+    width: 50%;
+    height: 1000px;
+    border: white solid 2px;
+}
+body{
+    background-image: url(./images/nature-photography.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+p{
+    color: white;
+}

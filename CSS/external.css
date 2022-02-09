@@ -1,0 +1,12 @@
+h1{
+    color: #d3847f;
+}
+body{
+    background-color: rgb(131, 73, 73);
+}
+div{
+    background-color: rgb(219, 231, 231);
+    height: 300px;
+    width: 800px;
+    border: black 2px solid;
+}

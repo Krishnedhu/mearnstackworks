@@ -1,0 +1,285 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Licorice&family=Playfair+Display:ital,wght@0,400;0,600;1,600;1,900&family=Poppins:wght@800&family=Pushster&family=Roboto+Mono:ital,wght@0,100;1,400&family=Rock+3D&family=Shizuru&family=Vujahday+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height:100vh ;
+    background-image: url(./images/2560x1600_coffee-cup-foam-dark-drink-spray.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(39, 37, 34);
+    
+}
+.container{
+    
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    font: size 35px; 
+    color: blanchedalmond;
+}
+.navbar-menu a{
+    color: blanchedalmond;
+    font-size: 12px;
+    font-family: cursive;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block ;
+text-transform: uppercase;
+text-decoration: none;
+transition: 0.4s;
+
+
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    }
+
+
+.navbar-menu a:hover{
+    
+    background-color: blanchedalmond;
+    color: black};
+    
+
+
+.description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: blanchedalmond;
+    padding: 0 70px;
+    width: 100%;
+    text-align: center;
+}
+.description h2{
+    font-size: 30px;
+    font-family: 'Pushster', cursive;
+    font-weight: 100;
+    color: blanchedalmond;
+    letter-spacing: 10px;
+    line-height: 50px;
+
+
+}
+.description h1{
+    font-size: 35px;
+    font-family: 'Pushster', cursive;
+    font-weight: 700;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 70px;
+    text-align: right 30px;
+}
+.description p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-top: 100px;
+   padding: 100px;
+}
+.description button{
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: 700;
+    color: blanchedalmond;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: blanchedalmond 1px solid;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.description button:hover{
+    background: blanchedalmond;
+    color: black;
+}
+
+.row{
+   margin-top: 250px;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(226, 215, 198);
+     border:black 2px solid;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+.col{
+    width: 700px;
+    height: 200px;
+}
+img{
+    width: 90%;
+    height: 140px;
+    border-radius: 45px;
+}
+.col  img p{
+    padding-bottom: 40px;
+    font-family: cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+.row  p{
+   text-align: left;
+    font-family: cursive;
+}
+
+.wrapper{
+   margin-top: 70px;
+width: 100%;
+height: 400px;
+background-color:rgb(226, 215, 198);
+border: rgb(201, 193, 193) 2px solid;
+}
+.wrapper h1{
+    text-align: center;
+font-size: 30px;
+font-family:'Pushster', cursive; 
+}
+.img-area{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single-img{
+    padding: 0 20px 20px;
+}
+img:hover{
+    opacity: .5;
+    transition: .9s;
+}
+.single-img p{
+    text-align: center;
+    font-family: cursive;
+}
+.fixed{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(202, 192, 180);
+    border: black 2px solid;
+    color: black;
+    font-family: cursive;
+    position: fixed;
+    right: 100px;
+    top: 450px;
+    align-items: center;
+    border-radius: 15%;
+}
+.fixed h2{
+    margin-top: 8px;
+    text-align: center;
+}
+.fixed p{
+    padding: 20px;
+}
+.fixed button{
+  margin: 37px;
+   width: 150px;
+   height: 30px;
+   border: wheat 2px solid;
+   border-radius: 20px;
+   background-color: rgb(204, 108, 39);
+   transition: 0.4s;
+}
+.fixed label{
+    margin: 28px;
+    
+}
+.fixed input{
+    margin-left: 60px;
+    width: 200px;
+    height: 25px;
+    background-color: inherit;
+}
+.footer{
+    padding: 40px 0;
+    background-color: rgb(192, 186, 177);
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: gray;
+}
+.footer .social a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: 1px solid rgb(216, 211, 189);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none; 
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+.footer ul li a {
+color: rgb(32, 25, 25);
+text-decoration: none;
+opacity: 1;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 2;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(63, 56, 56);
+}
+
+   
+
+
+
+
+
+
+    
+  
+
+   

@@ -1,0 +1,39 @@
+.row{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    align-items: center;
+    /* justify-content: start; */
+    /* justify-content: end; */
+
+
+    display:flex
+    
+    
+
+}
+.col{
+    width: 231px;
+    height: 436px;
+    border: black solid 2px;
+  
+}
+
+.col-1{
+    background-color: darkseagreen;
+}
+.col-2{
+    background-color: dodgerblue;
+}
+.col-3{
+    background-color: fuchsia;
+}
+.col-4{
+    background-color: hotpink;
+}
+.col-5{
+    background-color: indianred;
+}

@@ -1,0 +1,30 @@
+#d1{
+    
+    width: 17%;
+    height: 500px;
+    border: black 2px solid;
+    float: left;
+    font-size: smaller;
+
+}
+#d2{
+    background-color: yellow;
+    color: black;
+    width: 95%;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 80%;
+    height:215px;
+}
+
+

@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+}
+div{
+    height: 125px;
+    width: 100px;
+}
+#b1{
+    background-color:rgb(243, 162, 176);
+    margin-top: 65px;
+    margin-left: 963px;
+}
+#b2{
+    background-color: rgb(47, 243, 29);
+    margin-top: -125px;
+    margin-left: 845px;
+}
+#b3{
+    background-color: rgb(65, 161, 65);
+    margin-top: -125px;
+    margin-left: 728px;
+}
+#b4{
+    background-color: rgb(125, 165, 125);
+    margin-top: -124px;
+    margin-left: 610px;
+}
+#b5{
+    background-color: rgb(51, 7, 7);
+    margin-top: -124px;
+    margin-left: 491px ;
+}
+#b6{
+    background-color: rgb(100, 68, 68);
+    margin-top: 44px;
+    margin-left: 1082px;
+}
+#b7{
+    background-color: rgb(29, 18, 37);
+    margin-top: -125px;
+    margin-left: 962px;
+}
+#b8{
+    background-color: rgb(33, 7, 126);
+    margin-top: -125px;
+    margin-left: 844px;
+}
+#b9{
+    background-color: rgb(62, 62, 138);
+    margin-top: -125px;
+    margin-left: 727px;
+}
+#b10{
+    background-color: rgb(94, 114, 121);
+    margin-top: -125px;
+    margin-left: 609px;
+    
+}
+.c1{
+    background-color: orangered;
+    margin-top: -125px;
+    margin-left: 491px;
+}
+.c2{
+    background-color: yellow;
+    margin-top: -125px;
+    margin-left: 370px;
+    
+}
+.c3{
+    background-color: rgb(240, 118, 73);
+    margin-top: 44px;
+    margin-left: 1211px;
+    
+}
+.c4{
+    background-color: rgb(35, 35, 49);
+    margin-top: -125px;
+    margin-left: 1089px;
+}
+.c5{
+    background-color: rgb(82, 82, 180);
+    margin-top: -125px;
+    margin-left: 966px;
+}
+.c6{
+    background-color: rgb(58, 5, 5);
+    margin-top:-125px ;
+    margin-left: 846px;
+}
+.c7{
+    background-color: rgb(235, 54, 114);
+    margin-top: -125px;
+    margin-left: 727px;
+}
+.c8{
+    background-color: rgb(236, 181, 61);
+    margin-top: -125px;
+    margin-left: 607px;
+}
+.c9{
+    background-color:rgb(245, 227, 35);
+    margin-top: -125px;
+    margin-left: 486px;
+}
+.c10{
+    background-color: rgb(235, 217, 217);
+    margin-top: -125px;
+    margin-left: 365px;
+}
+.c11{
+    background-color: grey;
+    margin-top: -125px;
+    margin-left: 242px;
+}

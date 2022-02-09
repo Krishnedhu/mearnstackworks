@@ -1,0 +1,64 @@
+.carousel-item h2 {
+
+    text-align: left;
+    left: 350px;
+    
+   
+}
+.carousel-item h1 {
+    text-align: left;
+   
+}
+.carousel-item p{
+    text-align: left;
+}
+.carousel-item button{
+    float: left;
+}
+#service{
+    margin-top: 150px;
+}
+
+#intro{
+    margin-top: 100px;
+}
+#pack{
+    margin-top: 100px;
+}
+.card{
+    opacity: 60%;
+}
+.card:hover{
+    opacity: 100%;
+}
+#review{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    
+}
+#blog{
+    margin-top: 120px;
+}
+    #blog span{
+        margin-left: 150px;
+    }
+    #foot h5{
+ text-align: left;
+ margin-top: 100px;
+    }
+#foot a{
+    text-decoration: none;
+}
+#foot{
+    background-color: rgb(222, 234, 235);
+    opacity: 2;
+    font-size: 14px;
+    display: inline-block;
+    
+}
+#foot i{
+    border-radius: 50%;
+    letter-spacing: 8px;
+}
